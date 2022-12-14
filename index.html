@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="control-btn">
+      <span>Start Game</span>
+    </div>
+    <div class="title-box">
+      <div class="name">Hello : <span></span></div>
+      <div class="timer"></div>
+      <div class="tries">Wrong Tries : <span>0</span></div>
+    </div>
+    <div class="memory-block">
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/python.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="python">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/python.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="javascript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/javascript.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="javascript">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/javascript.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/github.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="github">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/github.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/html.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="html">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/html.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/css.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="css">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/css.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="mongdb">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/mongdb.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="mongdb">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/mongdb.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="react">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/react.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="react">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/react.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="ruby">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/ruby.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="ruby">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/ruby.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="angular">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/angular.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="angular">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/angular.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="vue">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/vue.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="vue">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="imgs/vue.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="leader-board">
+      <table>
+        <tr class="correct-table" ondblclick="tableClick()">
+          <th>Name</th>
+          <th>Correct Count</th>
+          <th>Wrong Count</th>
+        </tr>
+      </table>
+      <!-- <table>
+        <tr>
+          <th>Name</th>
+          <th>Wrong Count</th>
+        </tr>
+        <tr>
+          <td class="player-name">Salah</td>
+          <td class="wrong-counter">15</td>
+        </tr>
+      </table> -->
+    </div>
+    <!-- <div class="leader-board">
+      <div class="box">
+        <div class="player-name">Salah</div>
+        <div class="count-wrong">10</div>
+      </div>
+    </div> -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
